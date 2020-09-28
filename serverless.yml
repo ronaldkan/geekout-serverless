@@ -85,7 +85,7 @@ functions:
     handler: donations/get.get
     events:
       - http:
-          path: api/donation
+          path: api/donations/{division}
           method: get
           cors: false
 
