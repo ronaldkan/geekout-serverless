@@ -3,10 +3,13 @@
 const dynamodb = require('./dynamodb');
 
 module.exports.get = (event, context, callback) => {
+
+  console.log("test")
+  console.log(event.pathParameters.division)
   const params = {
     TableName: process.env.DYNAMODB_TABLE,
     Key: {
-      "division": event.pathParameters.division,
+      "division": event.pathParameters.division
     },
   };
 
