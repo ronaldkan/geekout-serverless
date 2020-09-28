@@ -31,4 +31,4 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: ap-southeast-1
     - run: npm install -g serverless
-    - run: serverless
+    - run: serverless deploy
