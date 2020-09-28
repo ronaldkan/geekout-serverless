@@ -88,6 +88,14 @@ functions:
           path: api/donations
           method: get
           cors: false
+
+  list:
+    handler: donations/list.list
+    events:
+      - http:
+          path: api/donations
+          method: get
+          cors: false
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
 #    Check the event documentation for details
