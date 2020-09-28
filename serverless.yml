@@ -141,7 +141,7 @@ functions:
 #       Value: "Some output value"
 resources:
   Resources:
-    TodosDynamoDbTable:
+    GeekoutDynamoDbTable:
       Type: 'AWS::DynamoDB::Table'
       DeletionPolicy: Retain
       Properties:
