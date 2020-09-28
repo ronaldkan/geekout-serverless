@@ -25,7 +25,7 @@ module.exports.create = (event, context, callback) => {
       name: data.name,
       division: data.division,
       quantity: data.quantity,
-      unit: data.unit
+      unit: data.unit,
       createdAt: timestamp,
     },
   };
