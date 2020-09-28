@@ -1,0 +1,11 @@
+{
+    "name": "geekout-serverless",
+    "version": "1.0.0",
+    "description": "Serverless web application development for geekout",
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "aws-sdk": "^2.761.0",
+        "uuid": "^2.0.3"
+    }
+}
