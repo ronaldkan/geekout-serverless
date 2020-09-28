@@ -3,12 +3,16 @@
 const uuid = require('uuid');
 const AWS = require('aws-sdk'); // eslint-disable-line import/no-extraneous-dependencies
 
+var isEmpty = function(obj) {
+  return Object.keys(obj).length === 0;
+}
+
 const dynamoDb = new AWS.DynamoDB.DocumentClient();
 
 module.exports.create = (event, context, callback) => {
   const timestamp = new Date().getTime();
   const data = JSON.parse(event.body);
-  if (data) {
+  if (isEmpty(data)){
     console.error('Validation Failed');
     callback(null, {
       statusCode: 400,
