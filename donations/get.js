@@ -6,7 +6,7 @@ module.exports.get = (event, context, callback) => {
   const params = {
     TableName: process.env.DYNAMODB_TABLE,
     Key: {
-      division: event.pathParameters.division,
+      "division": event.pathParameters.division,
     },
   };
 
@@ -18,7 +18,7 @@ module.exports.get = (event, context, callback) => {
       callback(null, {
         statusCode: error.statusCode || 501,
         headers: { 'Content-Type': 'text/plain' },
-        body: 'Couldn\'t fetch the todo item.',
+        body: 'Couldn\'t fetch the donation item.',
       });
       return;
     }

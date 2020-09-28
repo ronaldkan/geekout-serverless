@@ -77,7 +77,7 @@ functions:
     handler: donations/create.create
     events:
       - http:
-          path: api/donation
+          path: api/donations
           method: post
           cors: false
 
