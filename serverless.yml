@@ -166,13 +166,14 @@ resources:
         ProvisionedThroughput:
           ReadCapacityUnits: 1
           WriteCapacityUnits: 1
+        
         GlobalSecondaryIndexes:
           - IndexName: DivisionIndex
             KeySchema:
               - AttributeName: division
                 KeyType: HASH
             Projection:
-              ProjectionType: INCLUDE
+              ProjectionType: 'KEYS_ONLY'
             ProvisionedThroughput:
               ReadCapacityUnits: 1
               WriteCapacityUnits: 1
