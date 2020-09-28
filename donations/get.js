@@ -6,9 +6,7 @@ module.exports.get = (event, context, callback) => {
 
   const params = {
     TableName: process.env.DYNAMODB_TABLE,
-    Key: {
-      "division": event.pathParameters.division
-    },
+    IndexName: "DivisionIndex",
     KeyConditionExpression: "#div = :div_value",
     ExpressionAttributeNames:{
         "#div": "division"
