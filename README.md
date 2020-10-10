@@ -15,6 +15,11 @@ Contains the configuration we need for the cloud resources to provision for
 1. Login to AWS Console
 2. Create IAM User
 3. Retrieve IAM User Access Key & Secret Key (https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html)
+
+### Configure AWS CLI
+1. Install AWS CLI pip module
+2. Connect with AWS Programmatic Access via `aws configure` command and fill up with the details retrieved above.
+
 ## Getting started with serverless
 1. npm -g serverless
 2. serverless create --template aws-nodejs --path geekout-serverless
