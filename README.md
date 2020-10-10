@@ -23,8 +23,7 @@ Contains the configuration we need for the cloud resources to provision for
 
 ## Testing
 * serverless invoke -f hello
-* curl -X POST <Endpoint>
-* Curl <Endpoint>
+* curl
 
 ## Github Actions
 1. Login to Github, navigate to your repository
