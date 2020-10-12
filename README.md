@@ -35,12 +35,13 @@ Contains the configuration we need for the cloud resources to provision for
 ## Getting started with serverless 
 1. serverless create --template aws-nodejs --path geekout-serverless
 2. Copy the donations folder and serverless.yml into your newly created folder 
-3. serverless deploy
+3. Change the service name placeholder in serverless.yml to your name
+4. serverless deploy
 
 (if using Windows and running PS scripts for the first time, open Powershell with (Run as Admin) - enter command `Set-ExecutionPolicy Unrestricted`)
 
 ## Testing
-* serverless invoke -f hello
+* serverless invoke -f list
 * curl
 
 ## Github Actions
@@ -49,3 +50,6 @@ Contains the configuration we need for the cloud resources to provision for
 3. Create AWS_ACCESS_KEY_ID && AWS_SECRET_ACCESS_KEY as your secrets in step 2.
 4. Create workflow (Actions > New Workflow > Nodejs Template)
 5. Replace the generated yml with **geekout-serverless/.github/workflows/ci.yml**
+
+## To remove
+1. serverless remove
