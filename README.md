@@ -30,6 +30,7 @@ Contains the configuration we need for the cloud resources to provision for
 ### Configure AWS CLI
 1. Install AWS CLI pip module
 2. Connect with AWS Programmatic Access via `aws configure` command and fill up with the details retrieved above.
+3. Test if it is setup properly with `aws sts get-caller-identity`
 
 ## Getting started with serverless 
 1. serverless create --template aws-nodejs --path geekout-serverless
