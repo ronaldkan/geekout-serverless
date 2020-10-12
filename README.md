@@ -36,7 +36,7 @@ Contains the configuration we need for the cloud resources to provision for
 2. Copy the donations folder and serverless.yml into your newly created folder 
 3. serverless deploy
 
-(if using Windows and running PS scripts for the first time, open Powershell with (Run as Admin) - enter command `Set-ExecutionPolicy Unrestricted)
+(if using Windows and running PS scripts for the first time, open Powershell with (Run as Admin) - enter command `Set-ExecutionPolicy Unrestricted`)
 
 ## Testing
 * serverless invoke -f hello
