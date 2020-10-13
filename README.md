@@ -1,7 +1,9 @@
 # **Geekout Serverless Workshop**
 ## For Windows
 AWS - (Windows: https://awscli.amazonaws.com/AWSCLIV2.msi)
+
 Git - (Windows: https://github.com/git-for-windows/git/releases/download/v2.28.0.windows.1/Git-2.28.0-64-bit.exe)
+
 NodeJS - (Windows: https://nodejs.org/dist/v12.19.0/node-v12.19.0-x64.msi)
 
 ## Directories 
