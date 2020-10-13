@@ -26,7 +26,7 @@ NodeJS - (Windows: https://nodejs.org/dist/v12.19.0/node-v12.19.0-x64.msi)
 6. Test if its set up correctly: `aws sts get-caller-identity`
 
 ## Setup for Serverless
-1. NodeJS installed (Windows: https://nodejs.org/dist/v12.19.0/node-v12.19.0-x64.msi)
+1. NodeJS installed (Windows: https://nodejs.org/dist/v12.19.0/node-v12.19.0-x64.msi | Mac: brew install node@12)
 2. To install serverless, enter `npm i -g serverless`
 3. To test, enter `serverless --version`
 ---
