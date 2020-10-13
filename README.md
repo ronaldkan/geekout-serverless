@@ -24,7 +24,7 @@ Contains the configuration we need for the cloud resources to provision for
 
 ## Prerequisites for Serverless
 1. NodeJS installed (Windows: https://nodejs.org/dist/v12.19.0/node-v12.19.0-x64.msi)
-2. npm -g serverless 
+2. npm i -g serverless 
 3. Retrieve IAM User Access Key & Secret Key (https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html)
 
 ### Configure AWS CLI
