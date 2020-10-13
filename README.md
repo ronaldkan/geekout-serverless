@@ -33,7 +33,7 @@ Contains the configuration we need for the cloud resources to provision for
 3. Test if it is setup properly with `aws sts get-caller-identity`
 
 ## Getting started with serverless 
-1. `serverless create --template aws-nodejs --path geekout-serverless`
+1. `serverless create --template aws-nodejs --path geekout-test`
 2. Copy the donations folder and **serverless.yml.example** into your newly created folder 
 3. Change the service name placeholder in serverless.yml.example to your name
 4. rename serverless.yml.example to serverless.yml
