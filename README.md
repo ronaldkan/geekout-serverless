@@ -42,3 +42,6 @@ NodeJS - (Windows: https://nodejs.org/dist/v12.19.0/node-v12.19.0-x64.msi)
 
 ## To remove all the resoureces created on AWS
 1. `serverless remove`
+
+## (BONUS) Integration with a sample Frontend application
+- If you would like to see how the serverless APIs can work with a website, you can refer to this [repo](https://github.com/ryanashneil/geekout-frontend) and follow along
